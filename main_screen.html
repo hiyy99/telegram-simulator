@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Simulator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 90%;
+            max-width: 400px;
+        }
+        h1, h2 {
+            color: #333333;
+        }
+        .progress-bar {
+            background-color: #e0e0e0;
+            border-radius: 5px;
+            overflow: hidden;
+            margin: 10px 0;
+        }
+        .progress-bar div {
+            height: 20px;
+            background-color: #4caf50;
+            width: 50%; /* Пример: текущий прогресс */
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            margin: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Добро пожаловать, Николайо!</h1>
+        <h2>Уровень: 1</h2>
+        <h2>Должность: Новичок</h2>
+        <h2>Баланс: 50 монет</h2>
+        <div class="progress-bar">
+            <div style="width: 30%;"></div> <!-- Пример заполнения прогресс-бара -->
+        </div>
+        <p>Прогресс: 30% к следующему уровню</p>
+        <div class="buttons">
+            <button>Работать</button>
+            <button>Улучшить навыки</button>
+            <button>Просмотреть статистику</button>
+        </div>
+    </div>
+</body>
+</html>
