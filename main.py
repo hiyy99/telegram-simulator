@@ -1,0 +1,1 @@
+print("Запуск Telegram Simulator...") 
